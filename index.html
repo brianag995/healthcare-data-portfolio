@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Healthcare data analytics portfolio featuring predictive modeling, SQL, and public health research interests." />
+  <title>Healthcare Data Analytics | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">Briana Gonzalez<span class="brand-dot">.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu ☰</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">HEALTHCARE ANALYTICS · EPIDEMIOLOGY · DATA SCIENCE</p>
+        <h1>Transforming health data into<br /><em>meaningful insights.</em></h1>
+       
+<p class="hero-description">
+  I'm a Data Analytics M.S. student at the University of Central Florida
+  with a background in Health Sciences and healthcare operations.
+  I'm passionate about applying statistical analysis, machine learning,
+  and data visualization to better understand patient outcomes,
+  healthcare systems, and population health trends.
+</p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my projects <span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="#about">Get to know me</a>
+        </div>
+      </div>
+
+          <div class="chart-bars"><i style="height:38%"></i><i style="height:65%"></i><i style="height:48%"></i><i style="height:82%"></i><i style="height:59%"></i><i style="height:93%"></i></div>
+          <span class="chart-footnote">explore · understand · improve</span>
+        </div>
+        <div class="circle circle-one"></div><div class="circle circle-two"></div>
+      </div>
+    </section>
+
+
+<section class="section about-section" id="about">
+  <div class="container about-grid">
+
+    <!-- Left column: Heading -->
+    <div>
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+      <h2>Where healthcare meets <em>curiosity.</em></h2>
+    </div>
+
+    <!-- Right column: About Me -->
+    <div>
+      <p>
+        My background in Health Sciences and experience in
+        healthcare operations have shaped my interest in
+        understanding how data can improve patient care
+        and support evidence-based decisions.
+      </p>
+
+      <p>
+        Currently pursuing my M.S. in Data Analytics at the
+        University of Central Florida, I'm developing skills
+        in statistical modeling, machine learning, and data
+        visualization. I'm particularly interested in
+        healthcare analytics, epidemiology, and population
+        health research.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Featured Projects -->
+<section class="section projects-section container" id="projects">
+
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">SELECTED WORK</p>
+      <h2>Featured <em>projects.</em></h2>
+    </div>
+
+    <p>
+      Exploring healthcare questions through data,
+      statistical modeling, and thoughtful analysis.
+    </p>
+  </div>
+
+  <div class="project-grid">
+
+    <!-- Project 1: Diabetes Risk Prediction -->
+    <article class="project-card">
+
+      <div class="project-art diabetes-art">
+        <span>01 / MACHINE LEARNING</span>
+        <div class="art-symbol">✳</div>
+      </div>
+
+      <div class="project-content">
+        <h3>Predicting Diabetes Risk</h3>
+
+        <p>
+          Investigating how patient health indicators
+          relate to diabetes risk using statistical
+          analysis and machine learning. Compared
+          classification models including Logistic
+          Regression, Random Forest, and XGBoost.
+        </p>
+
+        <p class="project-result">
+          XGBoost: 97.2% test accuracy · 0.977 ROC-AUC
+        </p>
+
+        <div class="tags">
+          <span>Python</span>
+          <span>Scikit-learn</span>
+          <span>XGBoost</span>
+        </div>
+
+        
+<a
+  href="https://github.com/brianag995/diabetes-risk-prediction"
+  class="project-status"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  View GitHub Project ↗
+</a>
+
+      </div>
+
+    </article>
+
+    <!-- Project 2: Appointment No-Show Analysis -->
+    <article class="project-card">
+
+      <div class="project-art appointments-art">
+        <span>02 / DATABASE ANALYTICS</span>
+        <div class="art-symbol">▦</div>
+      </div>
+
+      <div class="project-content">
+        <h3>Healthcare Appointment No-Shows</h3>
+
+        
+<p>
+  Designed and implemented a normalized PostgreSQL
+  database to investigate healthcare appointment
+  attendance. Used SQL queries, joins, and
+  aggregations to explore no-show patterns across
+  patient characteristics, clinic locations,
+  and SMS reminders.
+</p>
+
+<p class="project-result">
+  Relational database · 4 tables · SQL analysis
+</p>
+
+
+        <div class="tags">
+          <span>PostgreSQL</span>
+          <span>SQL</span>
+          <span>Data Modeling</span>
+        </div>
+
+        <span class="project-status">
+          Case study coming soon
+        </span>
+      </div>
+
+    </article>
+
+  </div>
+</section>
+
+
+    <section class="section skills-section" id="skills"><div class="container"><p class="eyebrow">MY TOOLKIT</p><h2>Tools for <em>thoughtful analysis.</em></h2><div class="skill-list"><span>Python</span><span>R</span><span>SQL / PostgreSQL</span><span>Excel</span><span>Power BI</span><span>Machine Learning</span><span>Statistical Analysis</span><span>Data Visualization</span></div></div></section>
+
+    <section class="section contact-section container" id="contact"><p class="eyebrow">LET'S CONNECT</p><h2>Let's make data <em>meaningful.</em></h2><p>Interested in healthcare analytics, population health, or data-driven research? I'd love to connect.</p><p class="contact-note">Add your LinkedIn, GitHub, and email links here before publishing.</p></section>
+  </main>
+  <footer class="footer"><div class="container"><span>Made with curiosity & care ♡</span><span>© <span id="year"></span> Your Name</span></div></footer>
+</body>
+</html>
