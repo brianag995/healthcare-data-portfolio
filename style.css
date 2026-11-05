@@ -11,3 +11,32 @@
   border-radius: 25px;
   margin: 16px 0;
 }
+
+
+/* Contact Links */
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.contact-links a {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 1px solid #c98fa3;
+  border-radius: 25px;
+  color: #a65d79;
+  background-color: #fff8f6;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.contact-links a:hover {
+  background-color: #c98fa3;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
